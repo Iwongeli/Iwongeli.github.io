@@ -1,0 +1,57 @@
+.bg-custom-1 {
+    background-image: linear-gradient(15deg, #FF6C50 0%, #FF7E37 100%);
+}
+
+.nav-item {
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.card-body h1{
+    font-family: "Georgia";
+    font-weight: bold;
+    margin: 32px 0 32px 0;
+}
+
+.card-body p{
+    font-family: "Courier";
+    font-weight: bold;
+}
+
+.shadow-custom {
+    box-shadow: 0 1.59602px 5.18708px rgb(0 0 0 / 2%), 0 5.36071px 17.4223px rgb(0 0 0 / 2%), 0 24px 78px rgb(0 0 0 / 4%);
+}
+
+.text-xs{font-size:.75rem}
+.text-sm{font-size:.875rem}
+.text-base{font-size:1rem}
+.text-lg{font-size:1.125rem}
+.text-xl{font-size:1.25rem}
+.text-2xl{font-size:1.5rem}
+.text-3xl{font-size:1.875rem}
+.text-4xl{font-size:2.25rem}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 110%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 120%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 130%;
+    }
+}
